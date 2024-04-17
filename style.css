@@ -1,0 +1,24 @@
+
+#myul li a {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    display: block
+  }
+  
+  #myul li:hover:not(.header) {
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  #myul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
